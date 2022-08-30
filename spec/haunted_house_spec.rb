@@ -22,10 +22,10 @@ describe "HauntedHouse" do
     expect(asylum.price).to eq(25.00)
   end
 
-  it "has a family_friendly (boolean)" do
-    asylum.update(family_friendly: false)
-    expect(asylum.family_friendly).to eq(false)
-  end
+  # it "has a family_friendly (boolean)" do
+  #   asylum.update(family_friendly: false)
+  #   expect(asylum.family_friendly).to eq(false)
+  # end
 
   it "has an opening_date (datetime)" do
     sept_27th = Date.new(2014, 9, 27)
